@@ -1,9 +1,41 @@
-package json // import "encoding/json"
-
-func (dec *Decoder) Decode(v any) error
-    Decode reads the next JSON-encoded value from its input and stores it in the
-    value pointed to by v.
-
-    See the documentation for Unmarshal for details about the conversion of JSON
-    into a Go value.
-
+{
+	"AR": "ar",
+	"CC": "clang",
+	"CGO_CFLAGS": "-g -O2",
+	"CGO_CPPFLAGS": "",
+	"CGO_CXXFLAGS": "-g -O2",
+	"CGO_ENABLED": "1",
+	"CGO_FFLAGS": "-g -O2",
+	"CGO_LDFLAGS": "-g -O2",
+	"CXX": "clang++",
+	"GCCGO": "gccgo",
+	"GO111MODULE": "",
+	"GOAMD64": "v1",
+	"GOARCH": "amd64",
+	"GOBIN": "",
+	"GOCACHE": "/Users/i565870/Library/Caches/go-build",
+	"GOENV": "/Users/i565870/Library/Application Support/go/env",
+	"GOEXE": "",
+	"GOEXPERIMENT": "",
+	"GOFLAGS": "",
+	"GOGCCFLAGS": "-fPIC -arch x86_64 -m64 -pthread -fno-caret-diagnostics -Qunused-arguments -fmessage-length=0 -fdebug-prefix-map=/var/folders/__/8p3krls12wn_8gl0f5qky87m0000gn/T/go-build2404039482=/tmp/go-build -gno-record-gcc-switches -fno-common",
+	"GOHOSTARCH": "amd64",
+	"GOHOSTOS": "darwin",
+	"GOINSECURE": "",
+	"GOMOD": "/Users/i565870/Workplace/golang-cli-playbook/go.mod",
+	"GOMODCACHE": "/Users/i565870/go/pkg/mod",
+	"GONOPROXY": "",
+	"GONOSUMDB": "",
+	"GOOS": "darwin",
+	"GOPATH": "/Users/i565870/go",
+	"GOPRIVATE": "",
+	"GOPROXY": "https://proxy.golang.org,direct",
+	"GOROOT": "/usr/local/go",
+	"GOSUMDB": "sum.golang.org",
+	"GOTMPDIR": "",
+	"GOTOOLDIR": "/usr/local/go/pkg/tool/darwin_amd64",
+	"GOVCS": "",
+	"GOVERSION": "go1.18",
+	"GOWORK": "",
+	"PKG_CONFIG": "pkg-config"
+}
